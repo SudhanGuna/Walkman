@@ -8,6 +8,8 @@ const progressContainer = document.querySelector('.progress-container')
 const title = document.querySelector('#title')
 const cover = document.querySelector('#cover')
 
+// Sample Commit
+
 const songs = ['song1', 'song2', 'song3']
 let songIndex = 2;
 loadSong(songs[songIndex])
