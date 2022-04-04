@@ -3,17 +3,17 @@
 * {
   box-sizing: border-box;
 }
-h1{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(247, 171, 152);
   opacity: 50%;
 }
+
 body {
-  background-image: linear-gradient(
-    0deg,
-    rgb(252, 235, 159) 23.8%,
-    rgb(255, 239, 210) 92%
-  );
+  background-image: linear-gradient(0deg,
+      rgb(252, 235, 159) 23.8%,
+      rgb(255, 239, 210) 92%);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ body {
 
 .img-container::after {
   content: '';
-  background-color:rgb(249, 250, 184);
+  background-color: rgb(249, 250, 184);
   border-radius: 50%;
   position: absolute;
   bottom: 100%;
@@ -106,7 +106,7 @@ body {
 }
 
 .music-info {
-  background-color: rgb(250, 246, 207);
+  background-color: rgb(252, 243, 219);
   border-radius: 15px 15px 0 0;
   position: absolute;
   top: 0;
